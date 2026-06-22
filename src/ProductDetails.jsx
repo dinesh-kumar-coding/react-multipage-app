@@ -10,10 +10,10 @@ function ProductDetails(){
     return <p>Product not found.</p>
   }
   return(
-    <div>
-      <p>Name: {product?.name}</p>
-      <p>Price: ${product?.price}</p>
-      <p>Description: {product?.description}</p>
+    <div className="card">
+      <h2>{product?.name}</h2>
+      <p className="price">${product?.price}</p>
+      <p className="muted">{product?.description}</p>
     </div>
   )
 }

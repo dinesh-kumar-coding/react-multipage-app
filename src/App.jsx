@@ -4,6 +4,7 @@ import Home from "./Home";
 import NotFound from "./NotFound";
 import ProductDetails from "./ProductDetails";
 import ProductList from "./ProductList";
+import './App.css'
 
 function App() {
   return (
